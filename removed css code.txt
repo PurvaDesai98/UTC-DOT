@@ -1,0 +1,42 @@
+.text-box{
+  width:90%
+  color: #003d7b;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.text-box h1{
+  font-size:52px;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 14px;
+  color: #0D90BC;
+}
+
+
+
+.header ul li:hover .sub-menu-1 ul{
+  display: block;
+  margin: 10px;
+}
+
+.sub-menu-1{
+  display: none;
+}
+
+
+.nav-links ul li:hover .sub-menu-1{
+  display: block;
+  position: absolute;
+  background: rgb(0,100,0);
+  margin-top: 15px;
+  margin-left: -15px;
+}
+
+.nav-links ul li:hover .sub-menu-1 ul{
+  display: block;
+  margin: 10px;
+}

@@ -1,0 +1,105 @@
+<nav>
+<ul>
+<li><a href="#">About Us</a></li>
+    <ul>
+    <li><a href="#">About the CYBER-CARE </a></li>
+    <li><a href="#">Executive Members</a></li>
+    <li><a href="#">Partners and Funders</a></li>
+    <li><a href="#">Other Researchers</a></li>
+    <li><a href="#">Semi Annual Progressive Report</a></li>
+    </ul>
+<li><a href="#">Research</a></li>
+<li><a href="#">For Researchers and Students</a></li>
+<li><a href="#">Education</a></li>
+<li><a href="#">Technology Transfer</a></li>
+<li><a href="#">News and Events</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+</nav>
+</header>
+<main>
+<section class="hero">
+<h1>Welcome to the Transportation Cybersecurity Center for Advanced Research and Education</h1>
+<p>Content here</p>
+<a href="#" class="btn">Learn More</a>
+</section>
+<section class="about">
+<h2>About Us</h2>
+<ul>
+    <li><a href="#">About the CYBER-CARE </a></li>
+    <li><a href="#">Executive Members</a></li>
+    <li><a href="#">Partners and Funders</a></li>
+    <li><a href="#">Other Researchers</a></li>
+    <li><a href="#">Semi Annual Progressive Report</a></li>
+    </ul>
+    <a href="#" class="btn">View All</a>
+</section>
+<section class="research">
+<h2>Research</h2>
+<ul>
+<li><a href="#">Research Program & Themes</a></li>
+<li><a href="#">Projects</a></li>
+<li><a href="#">Publications</a></li>
+<li><a href="#">Policy Briefs</a></li>
+</ul>
+<a href="#" class="btn">View All</a>
+</section>
+</section>
+<section class="for researchers and students">
+<h2>For Researchers and students</h2>
+<ul>
+<li><a href="#">Resources for Current Grantees</a></li>
+<li><a href="#">Funding Opportunities</a></li>
+<li><a href="#">Data Management Plan, Info, & Guidance</a></li>
+<li><a href="#">Positions Available</a></li>
+</ul>
+<a href="#" class="btn">View All</a>
+</section>
+</section>
+<section class="education">
+<h2>Education</h2>
+<ul>
+<li><a href="#">Certificate Programs/ Curriculum and Courses</a></li>
+<li><a href="#">Graduate</a></li>
+<li><a href="#">Undergraduate</a></li>
+<li><a href="#">K-12</a></li>
+<li><a href="#">Workforce Development</a></li>
+<li><a href="#">Student of the Year</a></li>
+<li><a href="#">Student Spotlight</a></li>
+<a href="#" class="btn">View All</a>
+</section>
+<section class="technology transfer">
+<h2>Technology Transfer</h2>
+<ul>
+<li><a href="#">Performance Matrics</a></li>
+<li><a href="#">Research Products</a></li>
+<li><a href="#">Software and Tools</a></li>
+</ul>
+<a href="#" class="btn">View All</a>
+</section>
+<section class="news and events">
+<h2>News and Events</h2>
+<ul>
+<li><a href="#">CYBER-CARE Annual Workshops</a></li>
+<li><a href="#">Upcoming Events</a></li>
+<li><a href="#">Seminars and Webinars</a></li>
+<li><a href="#">CYBER-CARE Newsletters</a></li>
+</ul>
+<a href="#" class="btn">View All</a>
+</section>
+<section class="contact">
+<h2>Contact</h2>
+<form action="#" method="POST">
+<label for="name">Name:</label>
+<input type="text" id="name" name="name" required>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" required>
+<label for="message">Message:</label>
+<textarea id="message" name="message" required></textarea>
+<button type="submit" class="btn">Send Message</button>
+</form>
+</section>
+</main>
+<footer>
+<p>&copy; 2023 Transportation Cybersecurity Center for Advanced Research and Education. All Rights Reserved.</p>
+</footer>
