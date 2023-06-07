@@ -209,7 +209,7 @@ nav .fa{
 }
 
 .image-about img{
-  height: 700px;
+  height: 500px;
   width: 100%;
   margin: 5px;
 }
@@ -284,7 +284,19 @@ nav .fa{
 
 /*------Logo - Front Page-------*/
 
-.image-logo{
+.image-logo {
+  position: relative;
+  width: 120px; /* adjust as needed */
+  height: 100px; /* adjust as needed */
+  padding-right: 5px;
+}
+
+.image-logo img {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+}
+/*.image-logo{
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -293,15 +305,15 @@ nav .fa{
 }
 
 .image-logo img{
-  height: 150px;
-  width: 150px;
+  height: 100px;
+  width: 100px;
   float: left;
   align-items: center;
   padding-left: 350px;
   padding-right: 10px;
   padding-bottom: 20px;
   object-fit: cover;
-}
+}*/
 
 .image-logo h2{
   color: #c8102e;
@@ -458,9 +470,11 @@ p{
 .newprojects-col{
   flex-basis: 31%;
   background: #FFCD22;
-  border-radius: 20px;
+  border-radius: 40px;
   margin-bottom: 5%;
-  padding: 20px 12px;
+  padding: 10px 5
+  
+  px;
   box-sizing: border-box;
   transition: 0.5s
 }
@@ -475,7 +489,7 @@ h3{
   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
 
-@media(max-width: 700px){
+@media(max-width: 900px){
   .row{
     flex-direction: column;
   }
