@@ -213,6 +213,19 @@ nav .fa{
   width: 100%;
   margin: 5px;
 }
+
+/* ------Images-area of expertise------*/
+.image-aoe{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-aoe img{
+  height: 350px;
+  width: 100%;
+  margin: 5px;
+}
 /*-----------Images - members------*/
 .image-pf{
   display: flex;
@@ -624,7 +637,7 @@ nav ul ul li a :hover {
   margin-bottom: 20px;
   border: none;
   border-radius: 5px;
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
 }
 
 #contact-us textarea {
